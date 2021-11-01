@@ -1,0 +1,22 @@
+1)input[type="checkbox"]#input-checkbox.account-form_checkbox
+
+section.account-form__section section
+
+form.account-form.input:nth-child(5) + div.account-form__container section.account-form__section>input[type="checkbox"]#input-checkbox.acco
+
+2)div {
+    width: 100px;
+    display: flex;
+    background: black;
+    color: white;
+    padding: 50px;
+    margin: 15px 25px ;
+    margin-bottom: 15px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+ section {
+     width: 30vw;
+     background-color: white;
+ }
+

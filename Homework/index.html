@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+  <form action="#">
+   <p>Please fill out the form</p> 
+    <fieldset>
+        <div>
+            <legend>Contact Information</legend>
+            <label for="name">Name</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="telephone">Telephone</label>
+            <input id="telephone">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text">
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <legend>Personal information</legend>
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="female">Woman</option>
+                <option value="male">Man</option>
+            </select>
+        </div>
+        <div> 
+            <label for="Date of Birth">Date of Birth</label>
+            <input type="date" name="date" id="date" min="1900-01-01" max="2003-01-01">
+        </div> 
+        <div>
+            <label for="comments">Why you are right for us</label>
+            <textarea  id="comments" cols="150" rows="1"></textarea> 
+        </div>
+    </fieldset>
+   <fieldset>
+      <legend>Your education</legend> 
+      <label for="The average"><input  id="The average" type="checkbox"> General secondary  </label>
+      <label for="Special"><input  id="Special" type="checkbox"> Vocational  </label>
+      <label for="Higher"><input  id="Higher" type="checkbox"> higher  (bachelor's degree) </label>
+      <label for="Higher"><input  id="Higher" type="checkbox"> higher  (master) </label>
+      </fieldset> <br>
+      <input type="submit" value="Отправить информацию">
+    </fieldset>      
+   </form>  
+</body>
+</html>

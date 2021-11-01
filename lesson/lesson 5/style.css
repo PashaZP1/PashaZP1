@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: red;
+    position: relative;
+}
+
+.block2 {
+    position: absolute;
+    background-color: darkblue;
+    height: 100px;
+    width: 100px;
+    z-index: 3;
+    text-align: right;
+    padding-top: 80px;
+
+}
+
+.block3 {
+    position: absolute;
+    background-color:darkcyan;
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+    text-align: right;
+    padding-top: 180px;
+
+}
+
+.block1 {
+    position: absolute;
+    background-color:yellow;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    text-align: right;
+    padding-top: 280px;
+    
+
+} 
